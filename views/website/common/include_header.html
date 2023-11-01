@@ -10,6 +10,7 @@
 
     <!--layui后面添加的-->
     <link href="http://localhost:3000/web/layui/css/layui.css" rel="stylesheet">
+    <link href="http://localhost:3000/web/css/index/header.css"  rel="stylesheet">
     <!-- core CSS -->
     <link href="http://localhost:3000/web/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://localhost:3000/web/css/font-awesome.min.css" rel="stylesheet">
@@ -32,56 +33,43 @@
 <body class="homepage">
 
 <header id="header">
-
-
     <nav class="navbar navbar-inverse" role="banner">
-        <div class="container">
+        <div class="mini-1200 plr100 clearfix margin-auto">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/"><img src="http://localhost:3000/web/images/logo1.png" alt="logo"></a>
+                <a class="brand" href="/"><img src="http://localhost:3000/web/images/logo1.jpg" alt="logo"></a>
             </div>
 
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li  id="main"><a href="/">首页</a></li>
+<!--                    <li  id="main"><a href="/">首页</a></li>-->
                     <li class="dropdown" id="company">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">走进车协<i class="fa fa-angle-down"></i></a>
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">关于我们<i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/company_intro">集团介绍</a></li>
-                            <li><a href="/process">车协进程</a></li>
-                            <li><a href="/organize">组织结构</a></li>
-                            <li><a href="/culture">企业文化</a></li>
+                            <li><a href="/company_intro">公司介绍 <i class="fa fa-angle-right"></i></a></li>
+<!--                            <li><a href="/process">车协进程 <i class="fa fa-angle-right"></i></a></li>-->
+                            <li><a href="/organize">组织结构 <i class="fa fa-angle-right"></i></a></li>
+<!--                            <li><a href="/culture">企业文化 <i class="fa fa-angle-right"></i></a></li>-->
                         </ul>
                     </li>
-                    <li class="dropdown" id="news">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">新闻中心<i class="fa fa-angle-down"></i></a>
+                    <li class="dropdown" id="service">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">服务项目<i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/company_dynamic">公司动态</a></li>
-                            <li><a href="/media_report">媒体报道</a></li>
-                            <li><a href="/activity_report">活动报道</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown" id="my_services">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">服务中心<i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="/services1">违章代办</a></li>
-                            <li><a href="/services2">罚款代缴</a></li>
-                            <li><a href="/services3">车险办理</a></li>
+                            <li><a href="/cnc">CNC加工 <i class="fa fa-angle-right"></i></a></li>
+                            <li><a href="/3d">3D打印 <i class="fa fa-angle-right"></i></a></li>
+                            <li><a href="/organize">逆向工程 <i class="fa fa-angle-right"></i></a></li>
+                            <li><a href="/organize">小批量生产 <i class="fa fa-angle-right"></i></a></li>
+                            <li><a href="/organize">钣金加工 <i class="fa fa-angle-right"></i></a></li>
+                            <!--                            <li><a href="/culture">企业文化 <i class="fa fa-angle-right"></i></a></li>-->
                         </ul>
                     </li>
                     <li id="my_partner"><a href="/partner">合作伙伴</a></li>
                     <li class="dropdown" id="human_resources">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">人力资源 <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/recruit">招聘</a></li>
-                            <li><a href="/benefits">薪酬福利</a></li>
-                            <li><a href="/staff_style">员工风采</a></li>
-                            <li><a href="/quit_notice">离职公示</a></li>
+                            <li><a href="/recruit">招聘 <i class="fa fa-angle-right"></i></a></li>
+                            <li><a href="/benefits">薪酬福利 <i class="fa fa-angle-right"></i></a></li>
+                            <li><a href="/staff_style">员工风采 <i class="fa fa-angle-right"></i></a></li>
+                            <li><a href="/quit_notice">离职公示 <i class="fa fa-angle-right"></i></a></li>
                         </ul>
                     </li>
                     <li id="contact_us"><a href="/contact_us">联系我们</a></li>

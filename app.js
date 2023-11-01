@@ -14,11 +14,13 @@ var app = express();
 var mongoose=require('./config/mongoose.js');
 var db=mongoose();
 
+// console.log(db)
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.engine('.html', require('ejs').__express);
 app.set('view engine', 'html');
+console.log(1)
 
 
 app.use(logger('dev'));
@@ -39,7 +41,7 @@ app.use(session({//session持久化配置
   saveUninitialized: true,
   resave: false,
 }));
-
+console.log(2)
 //ueditor上传图片
 app.use("/ueditor/ue", ueditor(path.join(__dirname, 'public'), function (req, res, next) {
   // ueditor 客户发起上传图片请求
@@ -81,7 +83,7 @@ app.get('/captcha', function (req, res) {
 
 
 require('./routes/index')(app);
-
+console.log(3)
 /*官网后台做操作是需要，登录验证*/
 app.use(function(req,res,next){
   if (!req.session.user) {
@@ -131,3 +133,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+console.log(4)

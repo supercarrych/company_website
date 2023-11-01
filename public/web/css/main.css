@@ -97,7 +97,7 @@ a:focus {
 
 .dropdown-menu {
   margin-top: -1px;
-  min-width: 180px;
+  min-width: 150px;
 }
 
 .center h2{
@@ -271,7 +271,7 @@ input.search-form:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #151515;
+  background: #FFFFFF;
   padding: 15px 0;
   padding-bottom: 0;
 }
@@ -286,17 +286,17 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  padding: 5px 12px;
   margin: 0;
   border-radius: 3px;
-  color: #fff;
   line-height: 24px;
   display: inline-block;
+  color: #333;
+  font-size: 1.9rem;
+  font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
-  color: #fff;
+  color: #f76a01;
 }
 
 .navbar-inverse {
@@ -315,8 +315,8 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #c52d2f;
-  color: #fff;
+  background-color: #fff;
+  color: #f76a01;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
@@ -339,13 +339,15 @@ input.search-form:hover {
 
 .navbar-inverse .navbar-nav .dropdown-menu > li > a {
   padding: 8px 15px;
-  color: #fff;
+  color: #000;
+  background-color: #FFFFFF;
+  font-size: 15px;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
-  background-color: #c52d2f;
+  background-color: #f76a01;
   color: #fff;
 }
 
